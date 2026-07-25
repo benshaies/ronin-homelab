@@ -4,4 +4,4 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 
 ## Overview
  - **Host OS**: Ubuntu Server 24.04.4 LTS (Noble Numbat)
- - [**Hardware**](docs/hardware.md): HP Z420 Workstation - Intel Xeon E5-1620 - Quadro K2000
+ - **Hardware**: HP Z420 Workstation - Intel Xeon E5-1620 - Quadro K2000 [DOCS](docs/hardware.md)
