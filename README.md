@@ -11,3 +11,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 
 ## Architecture
 
+# Services | Purpose | Port
+**---------------------------**
+  Adguard | DNS/Adblock | 90 
+
