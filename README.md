@@ -15,4 +15,5 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 
 **Service | Purpose | Port**
  - Adgaurd | DNS/Adblock | 90
+ - Nginx Proxy Manager | Proxy | 81 
 
