@@ -12,7 +12,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 ## Architecture
 
 # Services
-**Adguard** | Port 90 Web Client | DNS Rewrite, Home Adblocking
+**Adguard** | Port 90 Web Client | DNS Rewrite, Home Adblocking\n
 **Forgejo** | Port 3000 | Self Hosted Git
 **Nginx-Proxy-Manager** | Port 81 Web Client | Reverse Proxy for services
 **QBittorrent** | Port 8080 | Torrenting Software
