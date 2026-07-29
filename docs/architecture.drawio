@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="GHkiS1rYtMD3VczX649f">
-    <mxGraphModel dx="2803" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1104" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,12 +135,15 @@
         </mxCell>
         <mxCell id="mfflEHzJRGlgEFhQy0fE-27" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ZOBA0sfR94geOEzs4Lxy-7" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="850" y="485" as="sourcePoint" />
+            <mxPoint x="780" y="485" as="sourcePoint" />
             <mxPoint x="660" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfflEHzJRGlgEFhQy0fE-30" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fseeklogo.com%2Fimages%2FT%2Ftailscale-logo-86A0B25127-seeklogo.com.png&amp;f=1&amp;nofb=1&amp;ipt=1e160e2e100e311892f8ad53da75f11d599ace594a390c8105d633c8539d04bb;" value="" vertex="1">
-          <mxGeometry height="180" width="180" x="850" y="395" as="geometry" />
+          <mxGeometry height="180" width="180" x="780" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQRlCEuPcdYjKHlwohW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Secure Remote Access&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="840" y="525" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
