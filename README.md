@@ -10,6 +10,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
  - **Purpose**: Self host important services, control personal data, self hosting, pratice networking, monitoring and managing a server
 
 ## Architecture
+![Homelab Architecture](./docs/architecture.svg)
 
 # Services
 - **Adguard** | Port 90 Web Client | DNS Rewrite, Home Adblocking
