@@ -26,6 +26,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 - **TailScale** | Remote Access to services
 - **Vikunja** | Port 3456 | Self Hosted Project Management
 - **Plex Media Server** | Port 32400 | Self hosted media
+- **Dockage** | Port 5001 | Manage and View Containers
 
 ## Docs
 - [Network](docs/network.md)
