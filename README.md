@@ -7,7 +7,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
  - **Hardware**: HP Z420 Workstation - Intel Xeon E5-1620 - Quadro K2000 [DOCS](docs/hardware.md)
  - **Virtualization/Containers**: Docker + Docker Compose
  - **Network**: Home network routed through server, DNS rewrites, Proxy Server [DOCS](docs/network.md)
- - **Purpose**: Self host important services, control personal data, self hosting, pratice networking, monitoring and managing a server
+ - **Purpose**: Self host important services, control personal data, self hosting, practice networking, monitoring and managing a server
 
 ## Architecture
 <div align="center">
