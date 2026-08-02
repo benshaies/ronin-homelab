@@ -1,0 +1,25 @@
+services:
+  vikunja:
+    image: vikunja/vikunja
+    environment:
+      VIKUNJA_SERVICE_PUBLICURL: http://vikunja.ronin.home
+      VIKUNJA_DATABASE_TYPE: postgres
+      VIKUNJA_DATABASE_HOST: db
+      VIKUNJA_DATABASE_PASSWORD: password
+      VIKUNJA_DATABASE_USER: vikunja
+      VIKUNJA_DATABASE_DATABASE: vikunja
+    ports:
+      - 3456:3456
+    depends_on:
+      - db
+    volumes:
+      - /mnt/data/service/vikunja/files:/app/vikunja/files
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: vikunja
+      POSTGRES_DB: vikunja
+    volumes:
+      - /mnt/data/service/vikunja/db:/var/lib/postgresql/data
+networks: {}
