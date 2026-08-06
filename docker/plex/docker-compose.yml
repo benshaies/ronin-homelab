@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000 # Run 'id' in terminal to get your UID
+      - PGID=1000 # Run 'id' in terminal to get your GID
+      - TZ=America/Toronto
+      - VERSION=docker
+    volumes:
+      - /mnt/data/service/plex:/config
+      - /mnt/data/media/movies:/movies # Change to your actual mediapath
+      - /mnt/data/media/shows:/tv
+      - /mnt/data/media/music:/music
+    restart: unless-stopped
+networks: {}

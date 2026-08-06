@@ -1,0 +1,13 @@
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    restart: unless-stopped
+    environment:
+      - WEBSOCKET_ENABLED=true
+      - SIGNUPS_ALLOWED=false   # set to false after you create your account
+      - DOMAIN=https://vault.stillbenja.dev
+    volumes:
+      - /mnt/data/service/vaultwarden:/data
+    ports:
+      - "9000:80"

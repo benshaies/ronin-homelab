@@ -1,0 +1,15 @@
+services:
+  scrutiny:
+    image: ghcr.io/analogj/scrutiny:master-omnibus
+    container_name: scrutiny
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "7500:8080"
+    volumes:
+      - /mnt/data/service/smartctl:/opt/scrutiny/config
+      - /mnt/data/service/smartctl:/opt/scrutiny/influxdb
+    devices:
+      - "/dev/sda:/dev/sda"
+      - "/dev/sdb:/dev/sdb"
+      - "/dev/sdc:/dev/sdc"

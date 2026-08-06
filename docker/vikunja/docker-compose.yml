@@ -2,7 +2,7 @@ services:
   vikunja:
     image: vikunja/vikunja
     environment:
-      VIKUNJA_SERVICE_PUBLICURL: http://vikunja.ronin.home
+      VIKUNJA_SERVICE_PUBLICURL: https://vikunja.stillbenja.dev
       VIKUNJA_DATABASE_TYPE: postgres
       VIKUNJA_DATABASE_HOST: db
       VIKUNJA_DATABASE_PASSWORD: password
