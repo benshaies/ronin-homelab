@@ -40,8 +40,6 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 - **Router advertising IPv6 DNS alongside server's IPv4** — even after setting the server as DNS for the WiFi network, devices kept resolving through the router's auto-advertised IPv6 address (Router Advertisement), bypassing the server entirely. Fixed by assigning the server's IPv6 link-local address as a static DNS entry on the WiFi network, since a static global IPv6 wasn't available. Learned IPv6 can silently override IPv4 DNS settings — check both stacks when DNS misbehaves.
 
 ## Roadmap
-- Secure web connections with HTTPS and SSL certs inside Nginx proxy manager
-- BitWarden for securely storing passwords
 - Push mirroring with Forgejo to GitHub
 - Continue experimenting
 
