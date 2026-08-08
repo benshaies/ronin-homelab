@@ -4,6 +4,7 @@
 - Ubuntu Server Running on HP Z420
 - Most configuration done through SSH (Port 22) from main PC
 - Simple networking services such as Adguard Home and Nginx Proxy Manager running
+- SSL cert in Ngnix working and added
 
 ## Hardware
 - Original ISP Modem/Router & WAP
@@ -20,8 +21,8 @@
 
 ## DNS — AdGuard Home
 - 2 seperate DNS rewrites to make access easier\
-      *.ronin.home -> 191.168.40.169\
-      *.ronin.home -> 100.89.91.10 (Remote Tailscale Access IP)
+      *.stillbenja.dev -> 191.168.40.169\
+      *.stillbenja.dev -> 100.89.91.10 (Remote Tailscale Access IP)
 - Upstream DNS: https://dns10.quad9.net/dns-query
 - **BlockLists**: Adguard DNS Filter, HaGeZi's Normal Blocklist, OISD Blocklist Big
 
@@ -29,14 +30,14 @@
 - Proxy manager running to make access easier
 - 
 **List of Proxy Hosts** PORTS ONLY (All running under 192.126.40.169)
-- adguard.ronin.home : Port 90
-- dockge.ronin.home : Port 5001
-- forgejo.ronin.home : Port 3000
-- jellyfin.ronin.home : Port 8096
-- npm.ronin.home : Port 81
-- plex.ronin.home : Port 32400
-- qbittorrent.ronin.home : Port 8080
-- vikunja.ronin.home : Port 3456
+- adguard.stillbenja.dev : Port 90
+- dockge.stillbenja.dev : Port 5001
+- forgejo.stillbenja.dev : Port 3000
+- jellyfin.stillbenja.dev : Port 8096
+- npm.stillbenja.dev : Port 81
+- plex.stillbenja.dev : Port 32400
+- qbittorrent.stillbenja.dev : Port 8080
+- vikunja.stillbenja.dev: Port 3456
 
 ## Port Forwarding
 - No Ports forwarded currently
@@ -70,8 +71,7 @@ Tailscale creates its own internal IP for my server so my domains like jellyfin.
 Turn on IP forwarding -> Told tailscale to advertise my home subnet -> approve subnet in admin console -> Pointed tailscale DNS name server to Adguard / Server IP Address
 
 ## TODO
-- Configure and enable SSH cert for all service domains
 - Build own router using mini pc and most likely PfSense
 - Setup and configure DHCP and port forwarding on custom router
 - Configure and add a switch, configure VLANS and seperate server from other devices
-- Add server and WAP to switch 
+- Add server and Wireless Access Point to switch
