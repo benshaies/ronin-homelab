@@ -25,7 +25,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 - **QBittorrent** | Port 8080 | Torrenting Software
 - **TailScale** | Remote Access to services
 - **Vikunja** | Port 3456 | Self Hosted Project Management
-- **Plex Media Server** | Port 32400 | Self hosted media
+- **Jellyfin** | Port 8096 | Self hosted media
 - **Dockage** | Port 5001 | Manage and View Containers
 - **VaultWarden** | Port 9000 | Self Hosted Password Manager
 - **Smartctl / Scrutiny** | Port 7500 | Monitor all system drive health
