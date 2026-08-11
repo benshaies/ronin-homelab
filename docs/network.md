@@ -9,19 +9,19 @@
 ## Hardware
 - Original ISP Modem/Router & WAP
 - Server (Ronin) — Connected through Ethernet
-- **NIC**: 82579LM Gigabit Network Connect (Intel)
-- **Capacity**: 1Gbit/s
-- **Usual Speed**: 1Gbit/s
+- **NIC**: TP-Link 2.5GB TX201
+- **Capacity**: 2.5GB
+- **Usual Speed**: 900-1000 Mbps down | 30 - 32 Mbps Up
 
 ## IP Addressing
 - Subnet: 192.168.40.x
 - Router/gateway IP: 192.168.40.1
-- Ronin's static IP: 192.168.40.169
+- Ronin's static IP: 192.168.40.192
 - No VLAN setup
 
 ## DNS — AdGuard Home
 - 2 seperate DNS rewrites to make access easier\
-      *.stillbenja.dev -> 191.168.40.169\
+      *.stillbenja.dev -> 191.168.40.192\
       *.stillbenja.dev -> 100.89.91.10 (Remote Tailscale Access IP)
 - Upstream DNS: https://dns10.quad9.net/dns-query
 - **BlockLists**: Adguard DNS Filter, HaGeZi's Normal Blocklist, OISD Blocklist Big
@@ -29,15 +29,16 @@
 ## Reverse Proxy — Nginx Proxy Manager
 - Proxy manager running to make access easier
 - 
-**List of Proxy Hosts** PORTS ONLY (All running under 192.126.40.169)
+**List of Proxy Hosts** PORTS ONLY (All running under 192.126.40.192)
 - adguard.stillbenja.dev : Port 90
 - dockge.stillbenja.dev : Port 5001
 - forgejo.stillbenja.dev : Port 3000
 - jellyfin.stillbenja.dev : Port 8096
 - npm.stillbenja.dev : Port 81
-- plex.stillbenja.dev : Port 32400
+- jellyfin.stillbenja.dev : Port 8096
 - qbittorrent.stillbenja.dev : Port 8080
 - vikunja.stillbenja.dev: Port 3456
+- vault.stillbenja.dev : Port 9000
 
 ## Port Forwarding
 - No Ports forwarded currently
@@ -54,7 +55,7 @@
 - Turned on Override DNS servers
 - Configured Adguard to rewrite *.ronin.home to tailscale IP when called
 
-This configuration allows seamless, easy and secure remote access while still allowing easy access to services with proper domains such as "http://adguard.ronin.home"
+This configuration allows seamless, easy and secure remote access while still allowing easy access to services with proper domains
 
 ## Firewall Rules
 - No firewall rules on server 
@@ -73,5 +74,5 @@ Turn on IP forwarding -> Told tailscale to advertise my home subnet -> approve s
 ## TODO
 - Build own router using mini pc and most likely PfSense
 - Setup and configure DHCP and port forwarding on custom router
-- Configure and add a switch, configure VLANS and seperate server from other devices
+- configure VLANS and seperate server from other devices
 - Add server and Wireless Access Point to switch
