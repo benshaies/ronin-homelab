@@ -12,7 +12,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 ## Architecture
 <div align="center">
 
-<img width="1150" height="1301" alt="image" src="https://github.com/user-attachments/assets/726af75b-7ce8-4ade-ae70-c5df8560cce0" />
+<img width="1150" height="1301" alt="image" src="/docs/architecture.svg" />
 
 
 <p><em>High-level homelab architecture and service layout</em></p>
