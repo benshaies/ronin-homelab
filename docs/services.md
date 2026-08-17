@@ -18,7 +18,7 @@ Self-hosted Git server — lightweight GitHub/GitLab alternative. Used for priva
 ## Vaultwarden
 Self-hosted, lightweight Bitwarden-compatible password manager. Used as the primary password vault across devices.
 
-## Vikunja
+## Affine
 Self-hosted project and task manager. Used for tracking personal projects and to-dos.
 
 ## Scrutiny
