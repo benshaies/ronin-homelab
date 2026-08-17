@@ -25,7 +25,7 @@ Old Desktop computer running Ubuntu server with services running underneath dock
 - **Nginx-Proxy-Manager** | Port 81 Web Client | Reverse Proxy for services
 - **QBittorrent** | Port 8080 | Torrenting Software
 - **TailScale** | Remote Access to services
-- **Vikunja** | Port 3456 | Self Hosted Project Management
+- **Affine** | Port 3010 | Self Hosted Project Management
 - **Jellyfin** | Port 8096 | Self hosted media
 - **Dockage** | Port 5001 | Manage and View Containers
 - **VaultWarden** | Port 9000 | Self Hosted Password Manager
