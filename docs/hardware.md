@@ -20,6 +20,5 @@
 
 ## Future Hardware Plans
 - Configure ISP router to bridge mode and pass router responsibilities to personal router to handle DHCP, DNS and Ports
-- Buy and configure a switch connected to new router for better organization and VLANs
 - Connect Access Point for wireless connectivity
 - Add a UPS Power Backup to Server PC for protection during possible outages
